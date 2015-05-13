@@ -1,8 +1,8 @@
 <?php
-echo 'hello world?';
-echo 'hello world?';
-echo 'hello world?';
-echo 'hello world?';
+echo 'hello world';
+echo 'hello world';
+echo 'hello world';
+echo 'hello world';
 
 echo '<br><br>';
 
