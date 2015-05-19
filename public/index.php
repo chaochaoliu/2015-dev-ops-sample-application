@@ -18,6 +18,7 @@ $sql = 'SELECT * FROM click_counts WHERE url = ' . $conn->quote($url);
 $data = $conn->query($sql);
 
 if($data->fetchColumn()) {
+  $data = $conn->query($sql);
   $row = $data->fetch();
   echo 'clicks: ' . ($row['clicks']+1);
   $conn->query('UPDATE click_counts SET clicks = clicks+1 where url = ' . $conn->quote($url));
