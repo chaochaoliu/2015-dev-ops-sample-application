@@ -6,7 +6,7 @@ environments:
     default_database: development
     production:
         adapter: mysql
-        host: localhost
+        host: 172.31.16.104
         name: sample_app
         user: root
         pass: '12345678'
