@@ -6,11 +6,11 @@ echo 'hello world';
 
 echo '<br><br>';
 
-$username = "sampleuser";
+$username = "root";
 $password = "12345678";
 
 // Create connection
-$conn = new PDO('mysql:host=172.31.16.104;dbname=sample_app;charset=utf8', $username, $password);
+$conn = new PDO('mysql:host=localhost;dbname=sample_app;charset=utf8', $username, $password);
 
 $url = "http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
 
