@@ -16,4 +16,4 @@ def environment():
 
 
 def deploy():
-    run("cd /var/www/html/2015-dev-ops-sample-application && git pull origin master && php composer.phar install && php vendor/bin/phinx migrate -e production")
+    run("cd /var/www/html/2 && git pull origin master && php composer.phar install && php vendor/bin/phinx migrate -e production")
