@@ -1,7 +1,7 @@
 from __future__ import with_statement
 from fabric.api import *
 from fabric.contrib.console import confirm
-from fabric.contrib.files import exisits
+from fabric.contrib.files import exists
 from time import sleep
 from StringIO import StringIO
 import sys 
