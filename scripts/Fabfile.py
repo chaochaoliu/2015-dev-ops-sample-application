@@ -7,7 +7,7 @@ from StringIO import StringIO
 import sys 
 
 HOSTS = ['172.31.16.103', '172.31.16.102']
-USER = 'ubuntu'
+USER = 'sampleuser'
 
 
 def environment():
