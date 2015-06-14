@@ -6,7 +6,7 @@ from time import sleep
 from StringIO import StringIO
 import sys 
 
-HOSTS = ['172.31.32.103']
+HOSTS = ['172.31.16.103', '172.31.16.102']
 USER = 'ubuntu'
 
 
