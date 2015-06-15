@@ -6,7 +6,7 @@ echo 'hellohello';
 echo 'works!';
 echo '<br><br>';
 
-$username = "root";
+$username = "liuchao";
 $password = "12345678";
 
 // Create connection
