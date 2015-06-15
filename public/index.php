@@ -3,14 +3,13 @@ echo 'jenkins is working finally !!!!!!!!';
 echo 'hello world';
 echo 'hello world';
 echo 'hellohello';
-echo 'works!';
 echo '<br><br>';
 
 $username = "liuchao";
 $password = "12345678";
 
 // Create connection
-$conn = new PDO('mysql:host=172.31.16.114;dbname=sample_app;charset=utf8', $username, $password);
+$conn = new PDO('mysql:host=172.31.16.123;dbname=sample_app;charset=utf8', $username, $password);
 
 $url = "http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
 
