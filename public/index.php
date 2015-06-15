@@ -2,7 +2,7 @@
 echo 'jenkins is working finally !!!!!!!!';
 echo 'hello world';
 echo 'hello world';
-echo 'hellohello';
+echo 'hellohello tingbo';
 
 echo '<br><br>';
 
