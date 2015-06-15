@@ -4,7 +4,6 @@ echo 'hello world';
 echo 'hello world';
 echo 'hellohello';
 echo 'it works';
-
 echo '<br><br>';
 
 $username = "root";
